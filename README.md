@@ -1,14 +1,29 @@
 # 🐜 Ant Colony Optimization (ACO)
 
-This project demonstrates the **Ant Colony Optimization (ACO)** algorithm applied to the **Traveling Salesman Problem (TSP)**. The algorithm simulates the behavior of real ant colonies in finding the shortest path using pheromone trails.
+Ant Colony Optimization (ACO) is a **bio-inspired metaheuristic algorithm** modeled after how real ants find the shortest paths between their nest and food sources using pheromone trails. This project demonstrates how ACO can be applied to solve the **Traveling Salesman Problem (TSP)**.
+
+---
+
+## 🧠 What is Ant Colony Optimization (ACO)?
+
+ACO is a probabilistic algorithm that uses the idea of **pheromone-based communication** to iteratively explore and optimize solutions. Inspired by the behavior of ants in nature, it works as follows:
+
+- 🧪 **Pheromone Trails**: Virtual ants deposit pheromones on the paths they travel. Stronger pheromone trails indicate better solutions.
+- 🔁 **Positive Feedback**: Good paths get reinforced over time, leading to faster convergence.
+- 🔄 **Exploration + Exploitation**: ACO balances trying new paths and reinforcing known good ones.
+- 🔗 **Graph-Based Problems**: Especially effective for routing, scheduling, and network design problems.
+
+### 🧑‍🏫 Why is ACO Important?
+
+- It works well for **NP-hard problems** where traditional algorithms struggle.
+- It provides **near-optimal solutions** without exhaustive search.
+- It is **highly adaptable** to dynamic, real-world environments.
 
 ## 📌 Project Overview
-
-- **Course:** QMST 5332.003
 - **Group Members:**
-  - Sreeja Kukkala (swt36)
-  - Harsha Vardhan Alladi (nfb15)
-  - Madhan Mohan Madala (cck60)
+  - Sreeja Kukkala
+  - Harsha Vardhan Alladi
+  - Madhan Mohan Madala
 
 ## 📂 Files Included
 
